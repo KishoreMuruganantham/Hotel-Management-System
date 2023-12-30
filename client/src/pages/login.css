@@ -1,0 +1,63 @@
+/* Login Page Styles */
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://colorlib.com/etc/bforms/colorlib-booking-1/img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.lContainer {
+  width: 15%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px; /* Add padding to create space for the glassmorphism effect */
+  border-radius: 10px; /* Add border-radius for a rounded look */
+  background: rgba(255, 255, 255, 0.1); /* Adjust the opacity as needed */
+  backdrop-filter: blur(10px); /* Adjust the blur effect as needed */
+  z-index: 1; /* Ensure the pseudo-element is above the background image */
+}
+
+.lInput {
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.lButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.lButton:disabled {
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}
+
+/* Top Bar Styles */
+.topbar {
+  background-color: #003580;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.booking {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+}

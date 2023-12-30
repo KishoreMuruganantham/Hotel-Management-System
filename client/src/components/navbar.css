@@ -1,0 +1,31 @@
+.navbar{
+    height: 50px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo{
+    font-weight: 500;
+    color: white; /* Set the link color to white */
+    text-decoration: none; /* Remove underlines */
+    font-size: 22px;
+    cursor: pointer; /* Change the cursor to a pointer on hover for better UX */
+  }
+  
+  .navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+  }
